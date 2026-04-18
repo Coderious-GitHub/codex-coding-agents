@@ -68,6 +68,8 @@ Does not:
 - Preserve existing behavior and public contracts unless the task explicitly allows change.
 - Do not silently change APIs, payloads, serialization, save formats, scene wiring, or configuration formats.
 - Follow existing patterns unless there is a clear reason not to.
+- Prefer designs and refactors that align with SOLID principles where they fit the existing codebase and scope.
+- Apply SOLID pragmatically: improve cohesion, reduce unnecessary coupling, and avoid forcing new abstractions when a smaller local change is more appropriate.
 - Inspect real code paths before proposing abstractions.
 - Do not mix architecture, gameplay logic, UI, persistence, and tests in one pass unless necessary.
 - Each pass should leave the repo in a working state whenever reasonably possible.

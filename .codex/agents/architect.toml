@@ -35,6 +35,8 @@ The global plan must stay aware of:
 - validation expectations
 - decisions required between passes
 
+Prefer architecture decisions that improve cohesion and separation of responsibilities without introducing speculative abstraction.
+
 ## Required plan structure
 
 Use this structure:

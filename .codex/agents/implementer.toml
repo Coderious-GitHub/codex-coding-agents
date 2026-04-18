@@ -34,6 +34,8 @@ While changing code:
 - keep edits localized
 - avoid speculative cleanup
 - preserve contracts and data formats unless the pass explicitly allows change
+- when refactoring within scope, prefer changes that reduce coupling and clarify responsibilities
+- do not expand the pass just to apply new abstractions
 - keep temporary debug code out of the final result unless requested
 
 ## Validation
